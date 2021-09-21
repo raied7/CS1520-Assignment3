@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 
 <html>
-    <link rel="stylesheet" href="style_page2.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet"> 
-   
-    <title>My Projects</title>
- 
-    <body>
-        <h2 class="rgb" >Credit Riser</h2>
-        <div class="textbox"><p>In May 2021, I attended the Software Engineering
-            Summit for Capital One at the end of which I participated 
-            in a 24-hour hackathon. We were assigned with the task of creating something to improve the banking experience, 
-            specifically for those without a bank. My team decided to create a web app that would help improve the user's credit score
-            by suggesting actions to take depending on the user's input. Our web app relied on machine learning to recognize patterns 
-            from data of users who were able to improve their credit score by taking certain actions. We also employed sentimental analysis on the user input 
+<link rel="stylesheet" href="style_page2.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+<title>My Projects</title>
+
+<body>
+    <h2 class="rgb">Credit Riser</h2>
+    <div class="textbox">
+        <p>In May 2021, I attended the Software Engineering
+            Summit for Capital One at the end of which I participated
+            in a 24-hour hackathon. We were assigned with the task of creating something to improve the banking
+            experience,
+            specifically for those without a bank. My team decided to create a web app that would help improve the
+            user's credit score
+            by suggesting actions to take depending on the user's input. Our web app relied on machine learning to
+            recognize patterns
+            from data of users who were able to improve their credit score by taking certain actions. We also employed
+            sentimental analysis on the user input
             to suggest a personalized output. We ended up getting 2nd place.</p>
 
-            The tools we used for this project:
-            <ol>
-                <li> Python </li>
-                <li> HTML </li>
-                <li> CSS </li>
-                <li> Flask </li>
-                <li> Bootstrap </li>
-                <li> Github </li>
-                <li> Heroku </li>
-            </ol> 
-            <br><br><br><br><br><br><br><br>
-            My personal experience with the project: 
-            
-            <ul>
-                <li>
+        The tools we used for this project:
+        <ol>
+            <li> Python </li>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> Flask </li>
+            <li> Bootstrap </li>
+            <li> Github </li>
+            <li> Heroku </li>
+        </ol>
+        My personal takeaways from the project:
+        <ul>
+            <li>Led the front-end development of the website</li>
+            <li>Gained experience using Flask and Bootstrap frameworks</li>
+            <li>Practiced using Python within the machine learning/sentimental analysis context</li>
+        </ul>
+        <br>
+        <text style="color: rgb(228, 0, 0); font-style: italic;">Attached below is a screenshot of the project.
+            You can also check out the Github repo and the live app on Heroku! </text>
+    </div>
+    <!-- Screenshot of project -->
+    <div class="img_div"><img title="project_Screenshot" src="project.png" alt="Project_screenshot"> </div>
 
-                </li>
-            </ul>
+    <div class="button_div">
+        <button onclick="github()">Github</button>
+        <script>
+            function github() {
+                window.open(
+                    "https://github.com/credit-riser/final-code");
+            }
+        </script>
+        <br><br><br>
+    </div>
 
-            Attached below is a screenshot of the project. You can also check out the Github repo and the live app on Heroku!
-            </div>
-        <!-- Screenshot of project -->
-        <div class="img_div"><img title="project_Screenshot" src="project.png" alt="Project_screenshot"> </div>
-
-        <div class="button_div">
-            <button onclick="github()">Github</button>
-            <script>
-                function github() {
-                    window.open(
-                        "https://github.com/credit-riser/final-code");
-                }
-            </script>
-            <br><br><br>
-        </div>
-
-        <div class="button1_div">
-            <button onclick="liveapp()">Credit Riser</button>
-            <script>
-                function liveapp() {
-                    window.open(
-                        "https://credit-riser-app.herokuapp.com/");
-                }
-            </script>
-            <br><br><br>
-        </div>
+    <div class="button1_div">
+        <button onclick="liveapp()">Credit Riser</button>
+        <script>
+            function liveapp() {
+                window.open(
+                    "https://credit-riser-app.herokuapp.com/");
+            }
+        </script>
+        <br><br><br>
+    </div>
 
     <!-- Nav Bar - For the 2 pages -->
     <div class="nav_div">
-    <ul>
-        <li><a  href="index.html">Home</a></li>
-        <li><a class="active" href="page2.html">My Projects</a></li>
-      </ul> 
+        <ul class="nav_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="page2.html">My Projects</a></li>
+        </ul>
     </div>
-</body> 
+</body>
+
 </html>
 
 <!-- 10 different HTML elements besides html, head, and body -->
-<!-- <link>, <title>, <div>, <a>, <h2>, <ul>, <li>, <p>, <ol>, <img>, <br>, <button>, <script> -->
+<!-- <link>, <title>, <div>, <a>, <h2>, <ul>, <li>, <p>, <ol>, <img>, <br>, <button>, <script>, <text> -->
