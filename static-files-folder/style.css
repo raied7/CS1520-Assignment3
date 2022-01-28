@@ -5,8 +5,8 @@ body {
 }
 
 html {
-  font-family: 'Bungee Inline', cursive;
-  background-image: url("background.jpg");
+  font-family: 'Source Serif 4', sans-serif;
+  background-image: url("boji.jpg");
   background-color: #cccccc;
 
   background-size: cover;
@@ -28,11 +28,11 @@ h2 {
   font-weight: bold;
   text-align: center;
   font-size: 5vh;
-  background-color: black;
+  
 }
 
 h2.rgb:hover {
-  background-color: white;
+  
 }
 
 /* RGB colors animation */
@@ -41,14 +41,9 @@ h2.rgb:hover {
 }
 
 @keyframes color-change {
-  0% {
-    color: blue;
+  10%{
+    color: #1abc58;
   }
-
-  10% {
-    color: #b300ff;
-  }
-
   20% {
     color: #1abc9c;
   }
@@ -58,15 +53,11 @@ h2.rgb:hover {
   }
 
   40% {
-    color: blue;
+    color: #2980b9;
   }
 
   50% {
     color: #ffe600;
-  }
-
-  60% {
-    color: rgb(255, 0, 170);
   }
 
   70% {
@@ -81,9 +72,6 @@ h2.rgb:hover {
     color: #2980b9;
   }
 
-  100% {
-    color: pink;
-  }
 }
 
 .main_div {
@@ -177,10 +165,16 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+  border-color: black;
+  border-width: 2px 2px;
+  border-style:solid;
 }
 
 .active {
-  background-color: #c0834a;
+  background-color: #0f495c;
+  border-color: black;
+  border-width: 2px 2px;
+  border-style:solid;
 }
 
 .nav_div {
@@ -209,8 +203,8 @@ li a:hover:not(.active) {
 }
 
 .a1:hover {
-  text-decoration: underline;
-  color: #b300ff;
+  text-decoration:wavy;
+  color: #0f495c;
 }
 
 .a1:active {

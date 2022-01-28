@@ -5,10 +5,9 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet"> 
 <head>
-    <title>WhoIsRaied</title>
+    <title>Raied's Portfolio</title>
 </head>
 
 <body>
@@ -20,54 +19,25 @@
         </a>
     </div>
     <!-- Interests/Hobby -->
-    <h2 style="margin-bottom: 30vh;">I like watching <em>anime</em> and playing <em>soccer</em> </h2>
+    <h2 style="margin-bottom: 30vh;">This is my portfolio website for ENGCMP 0610 </h2>
 
-    <!-- Image of me that takes you to my anime list -->
-    <div class="sub_div">
-        <a href=" https://myanimelist.net/animelist/sakigake?status=2" target="_blank">
-            <img src="me.png" alt="Me aka. Raied">
-        </a>
-    </div>
 
     <!-- Nav Bar - For the 2 pages -->
     <div class="nav_div">
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="page3.html">About Me</a></li>
             <li><a href="page2.html">My Projects</a></li>
         </ul>
     </div>
 
-    <!-- Buttons for interactivity -->
-    <div class="input_div">
-        <input type="button" id="btnShowMsg" value="Top Secret" onClick="showMessage()" />
-        <script type="text/javascript">
-            function showMessage() {
-                window.open(
-                    "https://www.youtube.com/watch?v=cqF6M25kqq4&list=PLzJ2D8f51wW-H40q3dMB0evI7iJ0dmRdT&index=5&autoplay=1"
-                    );
-            }
-        </script>
-        <!-- Random anime recommendation - does not include all animes I have seeb -->
-        <button onclick="animerec()">Give me an anime recommendation!</button>
-        <script>
-            var animes = ["Naruto", "Attack on Titan", "Bleach", "Vinland Saga", "Banana Fish",
-                "Dr. Stone", "Love is War", "JoJo's Bizzare Adventures", "Gintama", "Saiki K",
-                "Assassination Classroom", "Angel Beats"
-            ];
-            var anime = animes[animes.length * Math.random() | 0];
-
-            function animerec() {
-                alert(anime);
-                anime = animes[animes.length * Math.random() | 0];
-            }
-        </script>
-    </div>
-    <!-- Nav Bar - For the 2 pages -->
+   
+    <!-- Nav Bar - For the socials -->
     <div class="nav_div2">
         <nav>
             <a class="a1" href="https://www.instagram.com/raied7" target="_blank">Instagram</a>
             <a class="a1" href="https://www.linkedin.com/in/raiedshoaib/" target="_blank">LinkedIn</a>
-            <a class="a1" href="https://github.com/raied7" target="_blank">GitHub</a>
+            <a class="a1" href="https://github.com/raied7" target="_blank" style="margin-right: 0.5vh">GitHub</a>
         </nav>
     </div>
 
@@ -75,6 +45,3 @@
 
 </html>
 
-<!-- 10 different HTML elements besides html, head, and body -->
-<!-- <link>, <title>, <div>, <a>, <h2>, <img>, <ul>, <li>, <em>, <input>, <button>,
-    <script>, <nav>-->

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" href="Mano.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet"> 
+<head>
+    <title>Mano</title>
+</head>
+
+<body>
+  
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 9</div>
+          <img src="Mano/1.jpg" style="height: 50vh;width:100%">
+          <div class="text">Golden Hour </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 9</div>
+          <img src="Mano/2.jpg" style="height: 50vh;width:100%">
+          <div class="text">Golden Hour (Continued)</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 9</div>
+          <img src="Mano/3.jpeg" style="height: 50vh;width:100%">
+          <div class="text">Chilling on the headrest</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 9</div>
+            <img src="Mano/4.jpeg" style="height: 50vh;width:100%">
+            <div class="text">Relaxing in the cat tree</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 9</div>
+            <img src="Mano/5.jpeg" style="height: 50vh;width:100%">
+            <div class="text">Tired</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 9</div>
+            <img src="Mano/6.jpeg" style="height: 50vh;width:100%">
+            <div class="text">Lying on the sofa</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 9</div>
+            <img src="Mano/7.jpeg" style="height: 50vh;width:100%">
+            <div class="text">Warm and cozy</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 9</div>
+            <img src="Mano/8.JPEG" style="height: 50vh;width:100%">
+            <div class="text">Friends</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 9</div>
+            <img src="Mano/9.jpeg" style="height: 50vh;width:100%">
+            <div class="text">Environment friendly</div>
+          </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+       
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+
+    <!-- Nav Bar - For the 2 pages -->
+    <div class="nav_div">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">My Projects</a></li>
+            <li><a class="active" href="page3.html">About Me</a></li>
+            <li><a style="background-color: #4c4861" href="https://myanimelist.net/animelist/sakigake" target="_blank">My Anime List</a></li>
+            <li><a style="background-color: #f4b977" href="Mano.html">Mano</a></li>
+            
+        </ul>
+    </div>
+
+    
+    <!-- Nav Bar - For the socials -->
+    <div class="nav_div2">
+        <nav>
+            <a class="a1" href="https://www.instagram.com/raied7" target="_blank">Instagram</a>
+            <a class="a1" href="https://www.linkedin.com/in/raiedshoaib/" target="_blank">LinkedIn</a>
+            <a class="a1" href="https://github.com/raied7" target="_blank" style="margin-right: 0.5vh">GitHub</a>
+        </nav>
+    </div>
+
+</body>
+
+</html>
+
