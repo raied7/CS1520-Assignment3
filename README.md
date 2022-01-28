@@ -1,1 +1,2 @@
-# CS1520-Assignment3
+# Portfolio Website 
+## Composing Digital Media with Professor LeMieux
