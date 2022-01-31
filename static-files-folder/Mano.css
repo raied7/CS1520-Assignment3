@@ -235,8 +235,8 @@ li a:hover:not(.active) {
 .slideshow-container {
     max-width: 5000px;
     position: relative;
-    margin-right: 50vh;
-    margin-bottom: 25vh;
+    margin-right: 20%;
+    margin-bottom: 15%;
   }
 
 
