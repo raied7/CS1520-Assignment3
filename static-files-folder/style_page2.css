@@ -101,18 +101,20 @@ h2 {
 /* Text Box */
 .textbox {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 60%;
+  overflow:auto;
+  margin-bottom: 10%;
   line-height: 25px;
   letter-spacing: 0.5px;
-  margin-bottom: 80vh;
   margin-left: 30vh;
-  padding: 0.8vh;
+  padding: 1vh;
   text-align: left;
   margin-right: 30vh;
   color: rgb(255, 255, 255);
   font-weight: 0;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.75);
-
+  scrollbar-color: #e9d787;
 }
 
 .textbox ul {
@@ -183,3 +185,4 @@ ol li {
   background-color: black;
   color: white
 }
+
